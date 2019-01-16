@@ -1,11 +1,11 @@
-- icon: icon-heart
-  title: Pain
-  description: WORDS WORDS WORDS
+- icon: icon-trophy
+  title: Wellness Vision
+  description: Tackling your health goals with motivational interviewing and positive psychology
+
+- icon: icon-medkit
+  title: Chronic Pain
+  description: Managing chronic pain so you can live the life you choose
 
 - icon: icon-bed
-  title: Sleep
-  description: WORDY MCWORDSON
-
-- icon: icon-flask
-  title: Nutrition
-  description: DEscriptions of words
+  title: Lifestyle habits
+  description: Improving quality of sleep, decreasing stress, increasing movement, eating well

@@ -14,24 +14,48 @@ layout: default
     </div>
 
     <div class="container-fluid">
-        
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
             <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Make an Appointment</h3>
-            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
-                <div class="form-field">
-                    <input name="name" type="text" placeholder="Name" required>
+            <!--
+            <iframe src="https://app.acuityscheduling.com/schedule.php?owner=17098777" width="100%" height="800" frameBorder="0"></iframe><script src="https://d3gxy7nm8y4yjr.cloudfront.net/js/embed.js" type="text/javascript"></script>
+            -->
+            <form >
+                <div>
+                    Are you looking to:
+                    <ul style="margin-left: 10px;"> 
+                    <li>
+                    Improve your wellness?
+                    <li>
+                    Manage Chronic Pain?
+                    <li> 
+                    Make meaning full lifestyle changes?
+                </ul>
+                </div>
+                <a href="https://app.acuityscheduling.com/schedule.php?owner=17098777" target="_blank" class="acuity-embed-button" style="background: #5fb8b9; color: #fff; padding: 8px 12px; border: 0px; -webkit-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;-moz-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;border-radius: 4px; text-decoration: none; display: inline-block;">Schedule Appointment</a><link rel="stylesheet" href="https://embed.acuityscheduling.com/embed/button/17098777.css" id="acuity-button-styles" /><script src="https://embed.acuityscheduling.com/embed/button/17098777.js" async></script>
+            <!--<input type="submit" class="btn btn-default" value="Make A Booking">-->
+            </form>
+            <!--form action="https://timbeghin.us7.list-manage.com/subscribe/post" method="POST">
+                <input type="hidden" name="u" value="a0ceef0f448f1241f3a4c8054">
+                <input type="hidden" name="id" value="eb55d9a34a">  
+                div class="form-field">
+                    -input name="name" type="text" placeholder="Name" required>
+                    <input type="text" name="b_name"  value="" placeholder="Name" id="b_name">
                 </div>
                 <div class="form-field">
+                    <input type="text" name="Phone Number" placeholder="Phone Number" id="MERGE4" size="25" value="">
                     <input name="phone" type="tel" placeholder="Phone" required>
                 </div>
                 <div class="form-field">
-                    <input name="email" type="email" placeholder="Email" required>
+                    <input type="email" name="b_email" value="" placeholder="Email" id="b_email">
+                    <input name="email" type="email" placeholder="Email" required
                 </div>
                 <div class="form-field">
-                    <textarea name="comments" placeholder="Message" required></textarea>
+                    <input type="text" name="MERGE1" placeholder="Comments" id="MERGE1" size="25" value="">
+                    <textarea name="comments" placeholder="Message" required></textarea
                 </div>
                 <input type="submit" class="btn btn-default" value="Send">
-            </form>
+            </form-->
+            
         </div>
 
     </div>
@@ -41,18 +65,21 @@ layout: default
 <!-- Start 3 columns -->
 <div class="three-shade-col">
     <div class="col-sm-4">
-        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Contact Us</h3>
+        <svg class="icon icope-o"><use xlink:href="#icon-envelope-o"></use></svg>
+        <h3>Contact Me</h3>
         <ul>
             {% if site.contact.phone %}<li><strong>Phone:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
+            <!---{% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}-->
             {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
         </ul>
     </div>
     <div class="col-sm-4">
-        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Opening Hours</h3>
-        <table>
+        <svg class="icon icon-flask"><use xlink:href="#icon-flask"></use></svg>
+        <h3>Find out more</h3>
+        <p>Sign Up for Email updates</p>
+        <p>More infomation coming soon</p>
+        <!--input type="submit" class="btn btn-default" value="Send" .button {background-color: #4CAF50;}>-->
+        <!--table>
             <tbody>
                 <tr>
                     <td>Monday – Friday</td>
@@ -67,7 +94,7 @@ layout: default
                     <td>{{ site.sunday }}</td>
                 </tr>
             </tbody>
-        </table>
+        </table-->
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
@@ -87,7 +114,7 @@ layout: default
         <div class="row">
             <div class="col-sm-6">
                 <h3>Lauren Kim Wellness</h3>
-                <p>A tagline, some phrase</p>
+                <p>Hi! I’m Lauren Angelil - a trained physiotherapist and statistician, lover of science, friend, trail runner and healthy food enthusiast. </p>
 
                 <div class="media">
                     <div class="media-left">
@@ -96,7 +123,16 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>WORDS WORDS WORDSelit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p style="text-align:justify">A few years ago, a loved one was diagnosed with a chronic inflammatory disorder. 
+                            It was a difficult few months for us. 
+                            Like you, he experienced pain, stress and anxiety and exhaustion. 
+                            This was all before he was diagnosed. 
+                            He retreated from social events and stopped doing the things he enjoyed. 
+                            At first he didn’t know what was going wrong. 
+                            It started with his hip joint, and then suddenly his lower back was sore and then his baby toe! 
+                            It was confusing.My physiotherapy training gave me an idea of what it was and finally blood tests confirmed. 
+                            His inflammatory markers were through the roof and gene testing confirmed my hypothesis
+                            </p>
                     </div>
                 </div>
 
@@ -107,7 +143,11 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>MORE WORDS</p>
+                        <p style="text-align:justify">Over the next few months, slowly but surely I helped him to get his life back on track. 
+                            Understanding his pain experience played a huge part. 
+                            What he was experiencing was completely normal, and now we were on a path to creating a life he wanted to live. 
+                            Getting back to what he loved - trail running.  
+                            Focusing on a healthy lifestyle was our main game - anti-inflammatory diet, moving his body daily, getting enough sleep and enjoying friends and family</p>
                     </div>
                 </div>
 
@@ -118,7 +158,9 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Even More Words</p>
+                        <p style="text-align:justify">Fast forward a few months, he did his first 5km run. 
+                            He was a bit sore, but felt a sense of accomplishment, joy and happiness reaching this milestone. 
+                            We continued with this path and a year and half after that, he ran his first 35km trail run</p>
                     </div>
                 </div>
             </div>
@@ -133,7 +175,7 @@ layout: default
 <!-- Start Treatments -->
 <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">Treatments</h2>
+        <h2 class="section-title">Health Coaching</h2>
 
         <div class="row">
             {% for treatment in site.data.treatments %}

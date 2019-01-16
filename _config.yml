@@ -2,8 +2,8 @@
 title: LaurenKim Wellness
 description: "Changing your pain experience"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
-logo_url: svg/min/logo.svg
+url: "http://www.laurenkimwellness.com/" # the name of your domain
+logo_url: svg/min/logo2.svg
 
 # Hero
 hero: 
@@ -16,9 +16,9 @@ api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
+    phone: 076 155 2626
+    #emergency: 931 53 234
+    email: laurenkimwellness@gmail.com
     address: 123 Umhlanga Rocks Drive <br> Durban, South Africa
 
 # Opening hours
@@ -45,7 +45,7 @@ skype: skype:123
 feed: yes
 
 # Footer
-copyright: © 2018 LaurenKim Wellness - All rights reserved
+copyright: © 2019 LaurenKim Wellness - All rights reserved
 
 # Build settings
 markdown: kramdown
